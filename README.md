@@ -57,8 +57,8 @@ You will see the Todo List displayed with proper styling.
 - `src/main/resources/static` - Contains CSS files for styling the UI.
 
 ## Screenshots
-![Todo List Screenshot]((https://github.com/user-attachments/assets/670ebd32-66eb-4de8-9402-eefecbd14c3a)
-ts/Screenshot_2025-06-07_191842.png)
+![Todo List Screenshot](https://github.com/user-attachments/assets/670ebd32-66eb-4de8-9402-eefecbd14c3a)
+
 
 
 
