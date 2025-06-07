@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Todo List</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+
+<h1>Todo List</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Status</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="todo : ${todos}">
+        <td th:text="${todo.title}" th:classappend="${todo.completed} ? 'completed' : ''"></td>
+        <td th:text="${todo.description}" th:classappend="${todo.completed} ? 'completed' : ''"></td>
+        <td th:text="${todo.completed} ? 'Done' : 'Pending'"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

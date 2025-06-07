@@ -1,0 +1,76 @@
+/* Body and General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Page Title */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+/* Table Header */
+thead th {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Table Body Rows */
+tbody tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+tbody tr:hover {
+    background-color: #d1e7fd;
+}
+
+/* Table Cells */
+td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Status Styling */
+.status {
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+}
+
+/* Done Status */
+.status.done {
+    background-color: #27ae60;
+}
+
+/* Pending Status */
+.status.pending {
+    background-color: #e67e22;
+}
+
+/* Completed Todos - strikethrough */
+.completed {
+    text-decoration: line-through;
+    color: #7f8c8d;
+}
