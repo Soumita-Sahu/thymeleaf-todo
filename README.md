@@ -1,8 +1,4 @@
-Got it! Here’s a more professional and detailed **README.txt** you can use for your Todo List Spring Boot project:
 
----
-
-```
 # Todo List Application
 
 ## Overview
