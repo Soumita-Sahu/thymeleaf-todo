@@ -59,9 +59,3 @@ You will see the Todo List displayed with proper styling.
 ## Screenshots
 *"C:\Users\SOUMITA\OneDrive\Pictures\Screenshots\Screenshot 2025-06-07 191842.png"*
 
----
-
-This README provides a clear, professional overview and instructions to anyone looking at your project. You can attach the screenshot (named something like `todo-list-output.png`) to your repo root or a `/screenshots` folder for clarity.
-
-Would you like me to help format it as a Markdown README.md instead?
-```
